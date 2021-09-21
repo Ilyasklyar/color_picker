@@ -1,0 +1,22 @@
+.listHexItem {
+    display: flex;
+    padding: 0 15px 0 25px;
+    margin: 0;
+    line-height: 35px;
+    cursor: pointer;
+    color:#9f9f9f;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+}
+.listHexItem:hover{
+    background-color: rgb(93, 154, 247);
+    color: #fff;
+}
+
+.listHexItem div {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
